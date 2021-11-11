@@ -1,0 +1,48 @@
+.home {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #000000;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+
+}
+
+
+.home__text {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    font-family: Copperplate;
+    padding-bottom: 32px;
+}
+
+.home__text__name {
+    font-weight: bold;
+    font-size: 60px;
+    background-image: linear-gradient(black, green 60%, black);
+
+
+    /*background-origin: 0;*/
+    /*background-position: 100%;*/
+
+    /*background-size: 200% 100%;*/
+
+    /*background-color:#476442;*/
+}
+
+.home__text__title {
+    font-size: 35px;
+
+}
+
+.home__text__date {
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.home__text__release {
+    font-size: 20px;
+}
